@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Weather() {
-  return <h1>Ths weather is ok</h1>;
+  return (
+    <div>
+      <button className="btn btn-primary">Click Me</button>
+    </div>
+  );
 }
