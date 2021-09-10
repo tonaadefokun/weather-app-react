@@ -4,15 +4,23 @@ export default function Weather() {
   return (
     <div className="container">
       <ul className="navigation-items">
-        <li className="navigation-item">Lisbon</li>
-        <li className="navigation-item">Paris</li>
-        <li className="navigation-item">Sydney</li>
-        <li className="navigation-item">Lagos</li>
+        <li className="navigation-item">
+          <a href="https://epic-newton-07cc27.netlify.app/">Lisbon</a>
+        </li>
+        <li className="navigation-item">
+          <a href="https://epic-newton-07cc27.netlify.app/">Paris</a>
+        </li>
+        <li className="navigation-item">
+          <a href="https://epic-newton-07cc27.netlify.app/">Sydney</a>
+        </li>
+        <li className="navigation-item">
+          <a href="https://epic-newton-07cc27.netlify.app/">Lagos</a>
+        </li>
       </ul>
       <div>
         <form>
           <input type="text" placeholder="Enter a city" />
-          <input type="submit" value="Search" />
+          <input type="submit" value="Search" className="btn btn-primary" />
         </form>
         <button className="btn btn-primary">Current</button>
       </div>

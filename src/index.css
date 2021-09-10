@@ -26,3 +26,14 @@ ul {
   display: inline;
   margin: 0 20px 0 0;
 }
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: initial;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  text-decoration: underline;
+}
