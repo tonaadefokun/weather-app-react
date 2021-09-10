@@ -71,13 +71,10 @@ export default function Weather() {
         </div>
       </div>
       <small>
-        <a href="#" target="_blank">
+        <a href="https://github.com/tonaadefokun/weather-app-react">
           Open weather app
         </a>{" "}
-        from{" "}
-        <a href="#" target="_blank">
-          Adefokun Adetona G
-        </a>
+        from <a href="https://github.com/tonaadefokun/">Adefokun Adetona G</a>
       </small>
     </div>
   );
